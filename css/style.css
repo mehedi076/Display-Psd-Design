@@ -1,0 +1,121 @@
+.social li{
+
+position: relative;
+
+padding-left: 10px;
+}
+.hand{
+    
+position: absolute;
+    
+top: 20px;
+    
+left: 20px;
+}
+.menu{}
+.menu li{}
+.menu li a{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333;
+}
+.menu li a.active,.menu li a:hover{
+   color:#2DCC70;
+}
+
+.banner-bg{
+
+background-image: url(../images/bannerbg.jpg);
+
+background-repeat: no-repeat;
+
+background-size: cover;
+}
+.banner-bg img{
+    
+transform: translateY(70px);
+}
+
+.about-section{
+    padding:  100px 0;
+    text-align: center;
+}
+
+ p{ font-size: 14px;
+    font-weight: 600;
+    color: #888;
+    padding: 8px 0;}
+
+.btn-custom{
+    background-color: #2DCC70;
+    color: #fff;
+    padding: 10px 10px;
+}
+.btn-custom:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.feature{
+background-color: #eee;
+}
+
+.left {
+    text-align: end;
+}
+.left img{
+
+}
+.right{}
+.right h2{
+    text-transform: uppercase;
+    color: #333333ad;
+}
+
+.ready{
+    background-color: #333;
+}
+.ready-right span a{}
+.ready-right{
+
+margin-top: 10px;
+}
+
+.ready-left h3{
+    text-transform: uppercase;
+    color: #ffffffc7;
+}
+
+
+
+footer  {
+    margin-top: 10px;
+}
+footer p{
+    text-transform: uppercase;
+}
+.icons{
+    position: relative;
+}
+.icons {}
+.icons  li{}
+.icons li a{
+    color: #333333a3;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+}
+
+
+.icons  li a::after{
+    content: "/";
+    position: absolute;
+    left: 72px;
+}
+
+}
+
+
+

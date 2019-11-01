@@ -1,0 +1,183 @@
+@media(max-width: 1199px){
+    .menu li a {
+    font-size: 15px;
+}
+p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #888;
+    padding: 8px 50px;
+}
+
+
+.right h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.right p {
+    padding: 5px 5px;
+}
+.btn-custom{
+ 
+    padding: 5px;
+}
+}
+
+@media(max-width: 991px){
+
+.menu li a {
+    font-size: 13px;
+}
+
+.banner-bg img {
+    transform: translateY(40px);
+    padding: 0px 100px;
+}
+
+p {
+
+    padding: 0px 0px;
+}
+.btn-custom{
+ 
+    padding: 5px;
+}
+.right h2 {
+    font-size: 22px;
+}
+
+.right p {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0px 0px;
+}
+
+.ready-left h3 {
+    font-size: 25px;
+}
+.ready-right {
+    font-size: 12px;
+}
+
+}
+
+
+@media(max-width: 767px){
+.menu li a {
+    font-size: 11px;
+}
+
+.banner-bg img {
+    transform: translateY(40px);
+    padding: 0px 100px;
+}
+.about-section {
+    padding: 60px 0;
+   
+}
+p {
+    font-size: 12px;
+}
+.left {
+    text-align: end;
+    padding: 0px 100px;
+    transform: translateX(50px);
+}
+.left img {
+    padding: 10px;
+    transform: translateX(-50px);
+}
+.right h2 {
+    padding-top: 20px;
+    text-align: center;
+}
+.right p {
+    font-size: 10px;
+    text-align: center;
+    padding: 0px 0px;
+    }
+.ready-left h3 {
+    font-size: 18px;
+}
+.ready-right {
+    font-size: 10px;
+}
+.btn-custom {
+    padding: 5px;
+    font-size: 11px;
+}
+
+.icons li a {
+    font-size: 10px;
+}
+.icons li a::after {
+    left: 60px;
+}
+footer p {
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-top: 10px;
+}
+}
+
+
+@media(max-width: 575px){
+.menu li a {
+    font-size: 10px;
+}
+.about-section {
+    padding: 55px 0;
+   
+}
+p {
+    font-size: 10px;
+    text-align: center;
+}
+.btn-custom {
+    padding: 2px;
+    font-size: 8px;
+}
+.left {
+    text-align: end;
+    padding-left: 50px;
+    transform: translateX(90px);
+}
+.left {
+    padding: 0px 100px;
+    transform: translateX(50px);
+}
+
+.right h2 {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: medium;
+    transform: translateX(75px);
+}
+.right p {
+    font-size: 8px;
+    text-align: center;
+    padding: 0px 6px;
+    transform: translateX(10px);
+}
+
+.right h2 {
+    font-size: 15px;
+    text-align: center;
+    transform: translateX(20px);
+}
+.ready-left h3 {
+    font-size: 16px;
+    text-align: end;
+}
+.ready-right {
+    text-align: end;
+}
+footer p {
+    font-size: 7px;
+}
+.icons li a {
+    font-size: 8px;
+}
+
+}
